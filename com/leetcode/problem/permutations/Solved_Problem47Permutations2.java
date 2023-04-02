@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class Problem47Permutations2 {
+public class Solved_Problem47Permutations2 {
 
   public static void main(String[] args) {
     System.out.println(new Solution().permuteUnique(new int[] {1,2,3}));

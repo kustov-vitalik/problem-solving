@@ -1,6 +1,6 @@
 package com.leetcode.problem.math;
 
-public class Problem1137NthTribonacciNumber {
+public class Solved_Problem1137NthTribonacciNumber {
 
   public static void main(String[] args) {
     System.out.println(new Solution().tribonacci(4)); // 4

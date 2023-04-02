@@ -1,6 +1,6 @@
 package com.leetcode.problem.graph;
 
-public class Problem695MaxAreaOfIsland {
+public class Solved_Problem695MaxAreaOfIsland {
     public int maxAreaOfIsland(int[][] grid) {
         int max = 0;
         for (int i = 0; i < grid.length; i++) {
