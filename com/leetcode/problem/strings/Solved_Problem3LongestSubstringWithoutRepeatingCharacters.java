@@ -3,6 +3,9 @@ package com.leetcode.problem.strings;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">Problem description</a>
+ */
 public class Solved_Problem3LongestSubstringWithoutRepeatingCharacters {
 
   public static void main(String[] args) {

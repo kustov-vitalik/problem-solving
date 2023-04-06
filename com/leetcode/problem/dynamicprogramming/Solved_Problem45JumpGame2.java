@@ -1,5 +1,8 @@
-package com.leetcode.problem.arrays;
+package com.leetcode.problem.dynamicprogramming;
 
+/**
+ * <a href="https://leetcode.com/problems/jump-game-ii/">Problem description</a>
+ */
 public class Solved_Problem45JumpGame2 {
 
   public static void main(String[] args) {
