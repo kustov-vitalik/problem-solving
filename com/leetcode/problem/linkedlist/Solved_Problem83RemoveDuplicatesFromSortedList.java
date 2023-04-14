@@ -2,6 +2,9 @@ package com.leetcode.problem.linkedlist;
 
 import com.leetcode.common.ListNode;
 
+/**
+ * <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-list">Problem description</a>
+ */
 public class Solved_Problem83RemoveDuplicatesFromSortedList {
 
   public static void main(String[] args) {

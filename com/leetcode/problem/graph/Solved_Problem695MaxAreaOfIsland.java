@@ -1,5 +1,8 @@
 package com.leetcode.problem.graph;
 
+/**
+ * <a href="https://leetcode.com/problems/max-area-of-island/">Problem description</a>
+ */
 public class Solved_Problem695MaxAreaOfIsland {
     public int maxAreaOfIsland(int[][] grid) {
         int max = 0;

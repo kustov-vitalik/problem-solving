@@ -2,6 +2,9 @@ package com.leetcode.problem.linkedlist;
 
 import com.leetcode.common.ListNode;
 
+/**
+ * <a href="https://leetcode.com/problems/remove-linked-list-elements/">Problem description</a>
+ */
 public class Solved_Problem203RemoveLinkedListElements {
 
   public static void main(String[] args) {
