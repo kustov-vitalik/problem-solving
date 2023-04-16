@@ -1,7 +1,10 @@
-package com.leetcode.problem.strings;
+package com.leetcode.problem.stack;
 
 import java.util.Stack;
 
+/**
+ * <a href="https://leetcode.com/problems/decode-string/">Problem description</a>
+ */
 public class Solved_Problem394DecodeString {
 
   public static void main(String[] args) {

@@ -10,7 +10,7 @@ public class Problem309BestTimeToBuyAndSellStockWithCooldown {
         System.out.println(new Solution().maxProfit(new int[] {1,2,4})); // 3
     }
 
-    static class Solution {
+    private static class Solution {
         public int maxProfit(int[] prices) {
 
             if (prices.length == 1) {
