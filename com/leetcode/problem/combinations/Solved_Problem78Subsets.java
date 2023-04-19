@@ -6,23 +6,24 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * <a href="https://leetcode.com/problems/combinations/">Problem description</a>
+ * <a href="https://leetcode.com/problems/subsets/description/">Problem description</a>
  */
-public class Solved_Problem77Combinations {
+public class Solved_Problem78Subsets {
     public static void main(String[] args) {
-        System.out.println(new Solution().combine(4, 2)); // [[1,2],[1,3],[1,4],[2,3],[2,4],[3,4]]
+        System.out.println(new Solution().subsets(new int[] {0,1,2}));
     }
 
     private static class Solution {
-        public List<List<Integer>> combine(int n, int k) {
+
+        public List<List<Integer>> subsets(int[] nums) {
             List<List<Integer>> output = new ArrayList<>();
-
-            generateCombinations(n, k, output);
-
+            for (int i = 0; i <= nums.length; i++) {
+                generateCombinations(nums.length, i, output, nums);
+            }
             return output;
         }
 
-        private void generateCombinations(int n, int k, List<List<Integer>> output) {
+        private void generateCombinations(int n, int k, List<List<Integer>> output, int[] nums) {
             int[] combinations = new int[k + 2];
             for (int i = 0; i < k; i++) {
                 combinations[i] = i;
@@ -35,7 +36,7 @@ public class Solved_Problem77Combinations {
                 output.add(
                         Arrays.stream(Arrays.copyOf(combinations, k))
                                 .boxed()
-                                .map(i -> i + 1)
+                                .map(i -> nums[i])
                                 .collect(Collectors.toList())
                 );
 

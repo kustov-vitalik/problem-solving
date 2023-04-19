@@ -1,6 +1,9 @@
 package com.leetcode.problem.binarysearcg;
 
-public class Problem852PeakIndexInMountainArray {
+/**
+ * <a href="https://leetcode.com/problems/peak-index-in-a-mountain-array/">Problem description</a>
+ */
+public class Solved_Problem852PeakIndexInMountainArray {
 
   public static void main(String[] args) {
 
@@ -12,7 +15,7 @@ public class Problem852PeakIndexInMountainArray {
 
   }
 
-  static class Solution {
+  private static class Solution {
 
     public int peakIndexInMountainArray(int[] arr) {
 
