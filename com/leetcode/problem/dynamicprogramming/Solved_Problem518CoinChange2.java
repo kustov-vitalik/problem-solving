@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * <a href="https://leetcode.com/problems/coin-change-ii/">Problem description</a>
  */
-public class Problem518CoinChange2 {
+public class Solved_Problem518CoinChange2 {
     public static void main(String[] args) {
         System.out.println(new Solution().change(5, new int[]{1, 2, 5})); // 4
         System.out.println(new Solution().change(3, new int[]{2})); // 0

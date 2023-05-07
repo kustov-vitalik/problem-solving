@@ -1,5 +1,8 @@
 package com.leetcode.problem.arrays;
 
+/**
+ * <a href="https://leetcode.com/problems/perfect-rectangle/">Problem description</a>
+ */
 public class Problem391PerfectRectangle {
 
   public static void main(String[] args) {

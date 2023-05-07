@@ -9,6 +9,9 @@ import java.util.Map;
 import java.util.Queue;
 import java.util.stream.Collectors;
 
+/**
+ * <a href="https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/">Problem description</a>
+ */
 public class Problem105ConstructBinaryTreeFromPreorderAndInorderTraversal {
 
   public static void main(String[] args) {

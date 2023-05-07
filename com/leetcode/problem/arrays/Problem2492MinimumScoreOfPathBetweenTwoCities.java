@@ -11,6 +11,9 @@ import java.util.Set;
 import java.util.TreeSet;
 import java.util.concurrent.ConcurrentSkipListSet;
 
+/**
+ * <a href="https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/">Problem description</a>
+ */
 public class Problem2492MinimumScoreOfPathBetweenTwoCities {
 
   public static void main(String[] args) {
